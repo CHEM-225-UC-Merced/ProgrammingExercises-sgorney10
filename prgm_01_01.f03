@@ -53,7 +53,9 @@
 !
       write(*,*)' Printing Matrix'
 !
-      ADD CODE HERE
+      do i = 1,3
+            write(*,*) 1000, matrix(1,i), matrix(2,i), matrix(3,i)
+      endDo
 !
 !
       return
