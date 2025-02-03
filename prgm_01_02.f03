@@ -1,4 +1,4 @@
-      Program prgm_01_01
+      Program prgm_01_02
 !
 !     This program reads a 3x3 matrix from a user-provided input file. After the
 !     file is opened and read, it is closed and then printed.
@@ -50,7 +50,7 @@
       call PrintMatrix3x3(matrixInB)
 !
   999 continue
-      End Program prgm_01_01
+      End Program prgm_01_02
 
 
       Subroutine PrintMatrix3x3(matrix)
