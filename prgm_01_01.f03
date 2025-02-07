@@ -25,7 +25,7 @@
         goto 999
       endIf
       do i = 1,3
-        read(inFileUnitA,*) matrixInA(1,i),matrixInA(2,i),matrixInA(3,i)
+        read(inFileUnitA,*) matrixInA(i,1),matrixInA(i,2),matrixInA(i,3)
       endDo
       close(inFileUnitA)
 !
@@ -54,7 +54,7 @@
       write(*,*)' Printing Matrix'
 !
       do i = 1,3
-            write(*,1000) matrix(1,i), matrix(2,i), matrix(3,i)
+            write(*,1000) matrix(i,1), matrix(i,2), matrix(i,3)
       endDo
 !
 !
