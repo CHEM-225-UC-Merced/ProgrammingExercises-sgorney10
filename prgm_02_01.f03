@@ -67,7 +67,7 @@
 ! 
       k=1
       do i = 1,M
-            do j = 1,M
+            do j = 1,N
                   AMatOut(j,i) = ArrayIn(k)
                   k = k+1
             endDo
